@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    background-color: blueviolet;
+}
+
+article {
+    background-color: greenyellow;
+}
+
+nav {
+    background-color: hotpink;
+}
+
+footer {
+    background-color: cyan;
+}
+
+header {
+    background-color: brown;
+}
+
+aside {
+    background-attachment: orange;
+}
