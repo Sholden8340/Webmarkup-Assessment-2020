@@ -1,27 +1,162 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin: auto;
+    background-color: #DDD;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: #EEE;
 }
 
 p {
     background-color: blueviolet;
 }
 
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+video {
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 8px 0;
+    border-color: #3C7A3D;
+}
+
 article {
-    background-color: greenyellow;
+    background-color: #CFFD6F;
+    border: black;
+    border-style: solid;
+    width: 99%;
+    height: fit-content;
 }
 
 nav {
-    background-color: hotpink;
+    background-color: #617A61;
+    display: flex;
+    border-style: solid;
+    border-width: 0 0 8px 0;
+    border-color: #3C7A3D;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    justify-content: center;
+    font-weight: bolder;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 1em;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav li {
+    background-color: #DDD;
+    display: inline-flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    flex-basis: 25%;
+    justify-content: center;
+    background-color: palegreen;
+    border: 1px solid #3C7A3D;
+}
+
+nav li:hover {
+    background-color: #3C7A3D;
 }
 
 footer {
     background-color: cyan;
+    padding: 2em;
 }
 
 header {
-    background-color: brown;
+    background-color: #7BFA7D;
+    padding: 1em;
+    margin: none;
+    ;
+    display: flex;
+    flex-direction: column;
+}
+
+#home-flex {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+#home-flex aside {
+    flex-basis: 100%;
 }
 
 aside {
     background-color: orange;
+    margin: 0px;
+    padding: 0 2em 0 2em;
+}
+
+article img {
+    float: right;
+    margin: none;
+    padding: none;
+}
+
+article p {
+    padding: 1em;
+}
+
+.article-content {
+    display: flex;
+    margin: 2em;
+}
+
+.article-content p {
+    flex: 1 1 100%;
+}
+
+.article-image {
+    flex: 1 2 auto;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #C6FBC7;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(119, 231, 147);
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
 }
