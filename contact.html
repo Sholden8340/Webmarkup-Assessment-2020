@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Stephen Holden">
     <title>Contact</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -22,10 +23,10 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="howsolarworks.html">How solar works</a></li>
-            <li><a href="eusolar.html">EU Solar</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="howsolarworks.html">How solar works</a></li>
+            <li class="nav-item"><a href="eusolar.html">EU Solar</a></li>
+            <li class="nav-itemd"><a class="selected" href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <main id="contact-us">
@@ -38,7 +39,7 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email">
                 <label for="message">Message:</label>
-                <input type="textarea" id="message" name="message">
+                <input type="text" id="message" name="message">
                 <input type="submit" value="Submit">
             </fieldset>
         </form>
@@ -79,7 +80,10 @@
         <section id="cookie-info">
             <h2>Cookie Statement</h2>
             <p>
-                This site uses Cookies to enhance your experience. By using this website you agree to our cookie policy
+                <em>
+                    This site uses Cookies to enhance your experience. By using this website you agree to our cookie
+                    policy
+                </em>
             </p>
         </section>
     </footer>

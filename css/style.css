@@ -46,6 +46,13 @@ a:hover {
     text-decoration: underline;
 }
 
+a.selected {
+    font-weight: bolder;
+    font-style: normal;
+    color: #FFF;
+    background-color: #326732;
+}
+
 article {
     background-color: #FFF;
     border-bottom: 4px solid #326732;
@@ -404,7 +411,6 @@ table td:nth-child(2), table th:nth-child(2) {
 }
 
 #contact-us form {
-    padding: auto;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
@@ -413,23 +419,19 @@ table td:nth-child(2), table th:nth-child(2) {
     height: 100%;
     margin: auto;
     display: grid;
-    
 }
 
 #contact-us form * {
     margin: auto;
     display: block;
-    
 }
 
 #contact-us input {
     margin: auto;
     display: block;
-    
 }
 
 #contact-us fieldset {
-
     background-color: #fff;
     border: none;
     font-weight: bold;
@@ -438,8 +440,6 @@ table td:nth-child(2), table th:nth-child(2) {
     margin: 1.0em auto;
     text-align: center;
 }
-
-
 
 @media only screen and (min-width:621px) and (max-width:1279px) {
     body {
