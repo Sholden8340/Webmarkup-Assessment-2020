@@ -101,10 +101,12 @@ footer p {
 
 h1 {
     font-size: 1.5em;
+    font-family: Notable, serif;
 }
 
 h2 {
     font-size: 1.2em;
+    font-family: Notable, serif;
 }
 
 header {
@@ -421,14 +423,33 @@ table td:nth-child(2), table th:nth-child(2) {
     display: grid;
 }
 
-#contact-us form * {
-    margin: auto;
-    display: block;
+label {
+    margin: 2em auto;
 }
 
-#contact-us input {
-    margin: auto;
-    display: block;
+input[type=text], input[type=email], textarea {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 20px auto;
+    border: 2px solid #326732;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: #4CAF5010;
+}
+
+input[type=submit] {
+    width: 40%;
+    justify-content: center;
+    padding: 12px 20px;
+    margin: 3em auto;
+    background-color: #326732;
+}
+
+input[type=submit]:hover {
+    background-color: #2B8F2B;
 }
 
 #contact-us fieldset {
@@ -566,6 +587,34 @@ table td:nth-child(2), table th:nth-child(2) {
     }
     #how-solar-works-ad figure:nth-child(2) {
         border: 0;
+    }
+
+    #contact-us {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+    
+    #contact-us #contact-ad {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    
+    #contact-us form {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+    }
+
+    #contact-ad *{
+        display: grid;
     }
 }
 
@@ -707,5 +756,33 @@ table td:nth-child(2), table th:nth-child(2) {
         grid-row-end: 9;
         display: inline-flex;
         flex-direction: row;
+    }
+
+    #contact-us {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    
+    #contact-us #contact-ad {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    #contact-us form {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+    }
+
+    #contact-ad *{
+        display: grid;
     }
 }
