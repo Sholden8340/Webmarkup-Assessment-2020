@@ -588,20 +588,17 @@ input[type=submit]:hover {
     #how-solar-works-ad figure:nth-child(2) {
         border: 0;
     }
-
     #contact-us {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(1, 1fr);
     }
-    
     #contact-us #contact-ad {
         grid-column-start: 2;
         grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
     }
-    
     #contact-us form {
         grid-column-start: 1;
         grid-column-end: 1;
@@ -612,8 +609,7 @@ input[type=submit]:hover {
         margin: auto;
         display: grid;
     }
-
-    #contact-ad *{
+    #contact-ad * {
         display: grid;
     }
 }
@@ -757,20 +753,17 @@ input[type=submit]:hover {
         display: inline-flex;
         flex-direction: row;
     }
-
     #contact-us {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(2, 1fr);
     }
-    
     #contact-us #contact-ad {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 2;
     }
-    
     #contact-us form {
         grid-column-start: 1;
         grid-column-end: 1;
@@ -781,8 +774,7 @@ input[type=submit]:hover {
         margin: auto;
         display: grid;
     }
-
-    #contact-ad *{
+    #contact-ad * {
         display: grid;
     }
 }
