@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Notable&display=swap');
+
 #articles {
     display: flex;
     flex-direction: column;
@@ -480,7 +482,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 
-@media only screen and (min-width:621px) and (max-width:1279px) {
+@media only screen and (min-width:481px) and (max-width:1279px) {
     body {
         width: 100%;
     }
@@ -632,7 +634,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 480px) {
     body {
         width: 100%;
         display: flex;
