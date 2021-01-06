@@ -482,7 +482,7 @@ input[type=submit]:hover {
     text-align: center;
 }
 
-@media only screen and (min-width:481px) and (max-width:1279px) {
+@media only screen and (min-width:481px) and (max-width:1179px) { /*Tablet*/
     body {
         width: 100%;
     }
@@ -634,7 +634,7 @@ input[type=submit]:hover {
     }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) { /* Mobile*/
     body {
         width: 100%;
         display: flex;
